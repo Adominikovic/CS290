@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HW Assignment: HTML/CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <H1>HW Assignment: HTML/CSS by Antonio Dominikovic ID:932784993</H1>
+
+    <table>
+        <caption>Popular Superheroes</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Image</th>
+                <th>Superpowers</th>
+                <th>Alter Ego</th>
+                <th>Affiliation</th>
+                <th>Publisher</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><em>Batman</em></td>
+                <td><img src ="https://vignette.wikia.nocookie.net/marvel_dc/images/5/56/Batman_0180.jpg/revision/latest/scale-to-width-down/150?cb=20130530164421"></td>
+                <td>Physical Prowess<br>Technical Ingenuity<br>Unlimited Resources<br></td>
+                <td>Bruce Wayne</td>
+                <td>Justice League</td>
+                <td>DC Comics</td>
+            </tr>
+            <tr>
+                <td><em>Wolverine</em></td>
+                <td><img src ="http://www.marveldirectory.com/pictures/individuals/w_1d/wolverine3.gif" style="height:200px;width:150px"></td>
+                <td>Healing Factor<br>Adamantium Claws<br>Superhuman Senses<br></td>
+                <td>James Howlett</td>
+                <td>X-Men</td>
+                <td>Marvel Comics</td>
+            </tr>
+            <tr>
+                <td><em>Mr. Fantastic</em></td>
+                <td><img src ="https://vignette.wikia.nocookie.net/mugen/images/9/91/Mr._FantasticMAA.png/revision/latest?cb=20141202060339"></td>
+                <td>Genius-level Intellect<br>Extreme Elasticity</td>
+                <td>Reed Richards</td>
+                <td>Fantastic Four</td>
+                <td>Marvel Comics</td>
+            </tr>
+            <tr>
+                <td><em>Iron Man</em></td>
+                <td><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJxcbzsCziaMazUry9CAbofFAQwz-gQdESrFD4N499Ry5sRvgig"></td>
+                <td>Genius-level Intellect<br>Advanced Armor Exoskeleton</td>
+                <td>Anthony Edward "Tony" Stark</td>
+                <td>Avengers</td>
+                <td>Marvel Comics</td>
+            </tr>
+            <tr>
+                <td><em>Spawn</em></td>
+                <td><img src ="https://vignette4.wikia.nocookie.net/bleedmancomics/images/a/a2/Spawntrans.png/revision/latest?cb=20121008150535" style="height:250px;width:200px"></td>
+                <td>Superhuman Strength, Speed<br>Skilled Fighter, Tactitian<br>Healing Factor<br>Necroplasmic Energy<br>Teleporation</td>
+                <td>Albert Francis "Al" Simmons</td>
+                <td>CIA, United States Marine Corps</td>
+                <td>Image Comics</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div>
+        <h4>My Favorite Bands</h4>
+         <ul>
+            <li>Red Hot Chili Peppers</li>
+            <li>Sublime</li>
+            <li>Nirvana</li>
+        </ul>
+    </div>
+
+    <div id="outer-div">
+        <div id="inner-content">
+           <p>Inner Content</p> 
+        </div>
+    </div>
+
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="GET">
+        <h3>GET Form</h3>
+        <label>Text Input: <input type="text" name="text_input" placeholder="text goes here"></label>
+        <label>Numeric Input: <input type="number" name="numerical_input" placeholder="numbers go here"></label><br>
+        <h4>Choose your favorite candy:</h4>
+        <label for="snickers">Snickers: </label>
+        <input name="candy" id="snickers" type="radio">
+        <label for="milkyway">Milky Way: </label>
+        <input name="candy" id="milkyway" type="radio">
+        <label for="3mus">Three Musketeers: </label>
+        <input name="candy" id="3mus" type="radio"><br><br>     
+        <input type="submit">
+        
+    </form>
+
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="POST">
+        <h3>POST Form</h3>
+        <label>Text Input: <input type="text" name="text_input" placeholder="text goes here"></label>
+        <label>Numeric Input: <input type="number" name="numerical_input" placeholder="numbers go here"></label><br>
+        <h4>Choose your favorite candy:</h4>
+        <label for="snickers">Snickers: </label>
+        <input name="candy" id="snickers" type="radio">
+        <label for="milkyway">Milky Way: </label>
+        <input name="candy" id="milkyway" type="radio">
+        <label for="3mus">Three Musketeers: </label>
+        <input name="candy" id="3mus" type="radio"><br><br>     
+        <input type="submit">
+        
+    </form>   
+
+</body>
+</html>

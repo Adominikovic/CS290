@@ -1,0 +1,42 @@
+table {
+    border-style:solid;
+}
+
+tr{
+    background-color: lightskyblue
+}
+
+tr:nth-of-type(even){
+    background-color: lightgreen
+}
+
+thead>tr{
+    background-color: transparent;
+}
+
+th{
+    border-style:solid;
+}
+
+td{
+    border-style:solid; 
+    text-align: center;
+}
+
+tfoot>tr{
+    background-color: transparent;
+}
+
+#outer-div{
+    background-color: pink;
+    padding: 10px;
+}
+
+#inner-content{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: lightblue;
+}
